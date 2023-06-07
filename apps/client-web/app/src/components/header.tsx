@@ -1,9 +1,7 @@
 'use client';
 
-import UserIcon from '@mui/icons-material/AccountCircle';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
-import IconButton from '@mui/material/IconButton';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import React from 'react';
@@ -38,22 +36,6 @@ function Header() {
             >
               <OptimizationForm />
             </Drawer>
-
-            <IconButton
-              size="large"
-              edge="start"
-              color="inherit"
-              aria-label="menu"
-              disableRipple
-            >
-              <Typography
-                variant="h6"
-                component="div"
-                sx={{ color: '#fff', ml: 1 }}
-              >
-                ZERO EMISSION APP
-              </Typography>
-            </IconButton>
           </div>
           <Box
             sx={{
@@ -62,8 +44,7 @@ function Header() {
               alignItems: 'center',
             }}
           >
-            <Typography>Welcome </Typography>
-            <UserIcon />
+            <Typography>Zero Emission App</Typography>
           </Box>
         </Toolbar>
       </AppBar>
